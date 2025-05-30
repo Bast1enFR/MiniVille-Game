@@ -11,12 +11,10 @@ MiniVille est un jeu de gestion de ville minimaliste développé en JavaScript, 
 *   **Interface utilisateur intuitive :** Une interface simple et agréable pour une expérience de jeu optimale.
 
 ## Comment jouer
-
-1.  Clonez le dépôt GitHub.
-2.  Ouvrez `index.html` dans votre navigateur.
-3.  Utilisez les boutons dans la barre latérale pour acheter des bâtiments.
-4.  Placez les bâtiments sur la grille de jeu.
-5.  Surveillez vos ressources et développez votre ville !
+1.  [JOUER](https://bast1enfr.github.io/MiniVille-Game/)
+2.  Utilisez les boutons dans la barre latérale pour acheter des bâtiments.
+3.  Placez les bâtiments sur la grille de jeu.
+4.  Surveillez vos ressources et développez votre ville !
 
 ## Technologies utilisées
 
@@ -24,17 +22,11 @@ MiniVille est un jeu de gestion de ville minimaliste développé en JavaScript, 
 *   CSS
 *   JavaScript (ES6 Modules)
 
-## Installation
-
-1.  Clonez le dépôt :
-    bash
-    git clone [URL du dépôt]
-    
-2.  Ouvrez `index.html` dans votre navigateur.
 
 ## Crédits
 
-Ce jeu a été développé par [Ton Nom/Pseudo].
+Ce jeu a été développé par Bast1enFR.
+Assets par Gemini AI
 
 ## Licence
 
