@@ -25,8 +25,8 @@ MiniVille est un jeu de gestion de ville minimaliste développé en JavaScript, 
 
 ## Crédits
 
-Ce jeu a été développé par Bast1enFR.
-Assets par Gemini AI
+* Ce jeu a été développé par Bast1enFR.
+* Assets par Gemini AI
 
 ## Licence
 
