@@ -39,7 +39,9 @@ MiniVille vous propose de prendre la tête d’une petite ville et de la faire p
 
 ## 📷 Captures d’écran
 
-*Ajoutez ici des images ou GIFs du jeu pour illustrer l’interface et le gameplay.*
+<p align="center">
+  <img src="preview/view.png" alt="Preview MiniVille" width="600"/>
+</p>
 
 ---
 
