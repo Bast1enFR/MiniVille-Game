@@ -1,0 +1,316 @@
+/* style.css */
+
+/* General body styling for overall page appearance */
+body {
+    font-family: 'Bubblegum Sans', sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Custom cursor style */
+* {
+    cursor: url('assets/cursor.png') 10 10, auto !important;
+}
+
+/* Sidebar styles for the left panel */
+.sidebar {
+    width: 280px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    border-radius: 10px;
+    border: 2px solid #222;
+    background-color: rgba(51, 51, 51, 0.8);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Added gap for spacing between sections */
+}
+
+/* Scrollbar styling for webkit browsers */
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #222;
+    border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+/* Sidebar header styling for the logo and title */
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin-bottom */
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+/* Resource display styles for displaying game resources */
+.resource-display {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; /* Reduced margin-bottom */
+    padding-bottom: 10px; /* Reduced padding-bottom */
+    border-bottom: 1px solid #555;
+    user-select: none;
+}
+
+/* Resource item styles for individual resource display */
+.resource-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Reduced margin-bottom */
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    user-select: none;
+}
+
+.resource-item:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Resource icon styles for the images */
+.resource-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    user-select: none;
+}
+
+/* Resource display text styles */
+.resource-display span {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    user-select: none;
+}
+
+/* Timer display styles for the elapsed time */
+.timer-display {
+    margin-bottom: 10px; /* Reduced margin-bottom */
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px black;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+/* General button styles */
+.sidebar button {
+    font-family: 'Bubblegum Sans', sans-serif;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px; /* Reduced margin-top */
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    user-select: none;
+    width: 100%; /* Make buttons fill the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.sidebar button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Building list styles */
+.building-list h2, .building-summary h2 {
+    font-family: 'Bubblegum Sans', sans-serif;
+    margin-top: 10px; /* Reduced margin-top */
+    margin-bottom: 5px; /* Reduced margin-bottom */
+    border-bottom: 3px solid #555;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.4em;
+    user-select: none;
+}
+
+.building-list ul, .building-summary ul {
+    list-style: none;
+    padding: 0;
+    user-select: none;
+}
+
+.building-list li {
+    margin-bottom: 5px;
+    user-select: none;
+}
+
+/* Building list button styles */
+.building-list button {
+    font-family: 'Bubblegum Sans', sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    border: 2px solid #333;
+    font-size: 1.1em;
+    font-weight: bold;
+    user-select: none;
+}
+
+.building-list button:hover {
+    background-color: #367c39;
+}
+
+/* Game grid styles */
+.game-grid {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    user-select: none;
+}
+
+/* Grid container styles */
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(14, 60px);
+    grid-template-rows: repeat(14, 60px);
+    gap: 2px;
+    background-color: #ddd;
+    border: 4px solid #bbb;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(221, 221, 221, 0.7);
+    outline: none;
+    user-select: none;
+}
+
+#grid-container > div {
+    width: 60px;
+    height: 60px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Empty cells counter styles */
+.empty-cells-counter {
+    font-family: 'Bubblegum Sans', sans-serif;
+    margin-top: 10px; /* Reduced margin-top */
+    font-size: 1.2em;
+    align-self: center;
+    text-shadow: 1px 1px 2px black;
+    user-select: none;
+}
+
+/* Image styles within the grid */
+#grid-container > div > img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    user-select: none;
+}
+
+/* Building summary styles */
+.building-summary {
+    font-family: 'Bubblegum Sans', sans-serif;
+    margin-top: 10px; /* Reduced margin-top */
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+.building-summary h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 2px black;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+    user-select: none;
+}
+
+.building-summary ul {
+    list-style: none;
+    padding: 0;
+    user-select: none;
+}
+
+.building-summary li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px black;
+    user-select: none;
+}
+
+/* Logo style */
+.logo {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    user-select: none;
+}
+
+/* Available cell style for highlighting */
+.available-cell {
+    background-color: rgba(0, 0, 255, 0.3) !important;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Save options container */
+.save-options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Spacing between buttons */
+    margin-bottom: 10px; /* Space before building list */
+}
+
+/* Main content area style */
+main.game-grid {
+    flex: 1; /* Occupy remaining space */
+    overflow: hidden; /* Prevent scrollbars */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 20px;
+}

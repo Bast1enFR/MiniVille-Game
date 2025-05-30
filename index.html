@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>MiniVille</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/logo.ico">
+</head>
+<body>
+    <!-- Sidebar containing resources, timer, save options and building lists -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/logo.png" alt="MiniVille Logo" class="logo">
+        </div>
+
+        <!-- Resource Display Section -->
+        <section class="resource-display">
+            <div class="resource-item">
+                <img src="assets/blé.png" alt="Blé" class="resource-icon">
+                <span id="ble-resource">0</span>
+            </div>
+            <div class="resource-item">
+                <img src="assets/pain.png" alt="Pain" class="resource-icon">
+                <span id="pain-resource">0</span>
+            </div>
+            <div class="resource-item">
+                <img src="assets/humain.png" alt="Hommes" class="resource-icon">
+                <span id="hommes-resource">0</span>
+            </div>
+            <div class="resource-item">
+                <img src="assets/argent.png" alt="Argent" class="resource-icon">
+                <span id="argent-resource">0</span>
+            </div>
+        </section>
+
+        <!-- Timer Display -->
+        <div class="timer-display">
+            Temps écoulé: <span id="real-timer">0</span>
+        </div>
+
+        <!-- Save and Clear Save Buttons -->
+        <div class="save-options">
+            <button id="save-button">Sauvegarder</button>
+            <button id="clear-save-button">Effacer la sauvegarde</button>
+        </div>
+
+        <!-- Building Purchase List -->
+        <section class="building-list">
+            <h2>Bâtiments à acheter</h2>
+            <ul id="building-buttons-container">
+                
+            </ul>
+        </section>
+
+        <!-- Building Summary -->
+        <section class="building-summary">
+            <h2>Récapitulatif des bâtiments</h2>
+            <ul id="summary-list">
+            </ul>
+        </section>
+    </aside>
+
+    <!-- Main game grid -->
+    <main class="game-grid">
+        <div id="grid-container"></div>
+        <div class="empty-cells-counter">
+        </div>
+    </main>
+
+    <!-- JavaScript Modules -->
+    <script type="module" src="script.js"></script>
+    <script type="module" src="./classe/Building.js"></script>
+    <script type="module" src="./classe/Game.js"></script>
+    <script type="module" src="./config.js"></script>
+</body>
+</html>
