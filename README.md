@@ -1,6 +1,7 @@
 <p align="center">
   <img src="assets/logo.png" alt="Logo MiniVille" width="400"/>
 </p>
+
 # 🏙️ MiniVille
 
 MiniVille est un jeu de gestion de ville minimaliste et accessible, développé en JavaScript, HTML et CSS. Construisez, développez et gérez votre propre cité en optimisant vos ressources !
