@@ -4,6 +4,8 @@
 
 # 🏙️ MiniVille
 
+> ⚠️ **Projet personnel en cours de développement** : Ce jeu a été créé avant tout pour que je m’amuse à développer. Il peut contenir des bugs ou des fonctionnalités incomplètes.
+
 MiniVille est un jeu de gestion de ville minimaliste et accessible, développé en JavaScript, HTML et CSS. Construisez, développez et gérez votre propre cité en optimisant vos ressources !
 
 ## 🚀 Aperçu
