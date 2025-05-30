@@ -81,3 +81,7 @@ Ce projet est sous licence [MIT](LICENSE).
 ---
 
 N’hésitez pas à ouvrir une issue ou une pull request pour toute suggestion ou amélioration !
+
+<p align="center">
+  <img src="discord.png" alt="Preview MiniVille" width="600"/>
+</p>
