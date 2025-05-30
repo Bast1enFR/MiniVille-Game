@@ -70,7 +70,7 @@ MiniVille vous propose de prendre la tête d’une petite ville et de la faire p
 ## 🙏 Remerciements & Crédits
 
 - Jeu développé par [Bast1enFR](https://github.com/Bast1enFR)
-- Assets générés avec Gemini AI
+- Assets générés avec [Gemini AI](https://gemini.google.com/)
 
 ---
 
