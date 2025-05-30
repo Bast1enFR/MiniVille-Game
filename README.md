@@ -31,9 +31,23 @@ MiniVille est un jeu de gestion de ville minimaliste et accessible, développé 
 
 ---
 
+## 🕹️ Contrôles
+
+- **Acheter et placer un bâtiment** :  
+  Cliquez sur le bouton d'achat, puis cliquez sur la grille pour placer le bâtiment.  
+  Appuyez sur `ECHAP` pour annuler le placement.
+
+- **Déplacer un bâtiment** :  
+  Faites un glisser-déposer (drag & drop) du bâtiment sur la grille pour le déplacer.
+
+- **Supprimer un bâtiment** :  
+  Cliquez simplement sur un bâtiment pour le supprimer. Vous récupérez la moitié de son prix d'achat.
+
+---
+
 ## 🚀 Aperçu
 
-MiniVille vous propose de prendre la tête d’une petite ville et de la faire prospérer à travers une gestion intelligente des ressources et des bâtiments. Sa prise en main rapide et son interface intuitive le rendent accessible à tous.
+MiniVille vous propose de prendre la tête d’une petite ville et de la faire prospérer à travers une gestion intelligente des ressources et des bâtiments. Sa prise en main rapide et son interface intuitive permettent à tous de s’y essayer !
 
 ---
 
