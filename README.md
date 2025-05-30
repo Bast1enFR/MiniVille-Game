@@ -1,33 +1,48 @@
-# MiniVille
+<p align="center">
+  <img src="assets/logo.png" alt="Logo MiniVille" width="400"/>
+</p>
+# 🏙️ MiniVille
 
-MiniVille est un jeu de gestion de ville minimaliste développé en JavaScript, HTML et CSS.
+MiniVille est un jeu de gestion de ville minimaliste et accessible, développé en JavaScript, HTML et CSS. Construisez, développez et gérez votre propre cité en optimisant vos ressources !
 
-## Fonctionnalités
+## 🚀 Aperçu
 
-*   **Gestion des ressources :** Gérez le blé, le pain, les hommes et l'argent pour développer votre ville.
-*   **Construction de bâtiments :** Placez différents types de bâtiments (champs de blé, boulangeries, maisons, bureaux) pour produire des ressources et développer votre économie.
-*   **Chaînes de production :** Observez comment les ressources sont transformées d'un bâtiment à l'autre grâce à des animations.
-*   **Sauvegarde et chargement :** Sauvegardez votre progression dans le navigateur et reprenez votre partie plus tard.
-*   **Interface utilisateur intuitive :** Une interface simple et agréable pour une expérience de jeu optimale.
+MiniVille vous propose de prendre la tête d’une petite ville et de la faire prospérer à travers une gestion intelligente des ressources et des bâtiments. Sa prise en main rapide et son interface intuitive en font un jeu idéal pour s’initier à la gestion urbaine !
 
-## Comment jouer
-1.  [JOUER](https://bast1enfr.github.io/MiniVille-Game/)
-2.  Utilisez les boutons dans la barre latérale pour acheter des bâtiments.
-3.  Placez les bâtiments sur la grille de jeu.
-4.  Surveillez vos ressources et développez votre ville !
+## ✨ Fonctionnalités principales
 
-## Technologies utilisées
+- **Gestion des ressources** : Gérez le blé, le pain, les habitants et l’argent pour faire évoluer votre ville.
+- **Construction stratégique** : Placez différents bâtiments (champs, boulangeries, maisons, bureaux...) pour maximiser la production.
+- **Chaînes de production animées** : Visualisez la transformation des ressources à travers des animations fluides.
+- **Sauvegarde automatique** : Reprenez votre partie à tout moment grâce à l’enregistrement dans le navigateur.
+- **Interface soignée** : Profitez d’une interface moderne et agréable pour une expérience optimale.
 
-*   HTML
-*   CSS
-*   JavaScript (ES6 Modules)
+## 🎮 Comment jouer
 
+1. [Cliquez ici pour jouer en ligne !](https://bast1enfr.github.io/MiniVille-Game/)
+2. Utilisez la barre latérale pour acheter et sélectionner des bâtiments.
+3. Placez-les sur la grille afin de développer votre ville.
+4. Gérez vos ressources et planifiez votre expansion pour atteindre la prospérité !
 
-## Crédits
+## 🛠️ Technologies utilisées
 
-* Ce jeu a été développé par Bast1enFR.
-* Assets par Gemini AI
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6 Modules)**
 
-## Licence
+## 📷 Captures d’écran
 
-[Licence (e.g., MIT License)]
+*Ajoutez ici des images ou GIFs du jeu pour illustrer l’interface et le gameplay.*
+
+## 🙏 Remerciements & Crédits
+
+- Jeu développé par [Bast1enFR](https://github.com/Bast1enFR)
+- Assets générés avec Gemini AI
+
+## 📄 Licence
+
+Ce projet est sous licence [MIT](LICENSE).
+
+---
+
+N’hésitez pas à ouvrir une issue ou une pull request pour toute suggestion ou amélioration !
