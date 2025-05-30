@@ -4,13 +4,13 @@
 
 # 🏙️ MiniVille
 
-> ⚠️ **Projet personnel en cours de développement** : Ce jeu a été créé avant tout pour que je m’amuse à développer. Il peut contenir des bugs ou des fonctionnalités incomplètes.
+> ⚠️ **Projet personnel en cours de développement**  
+> Ce jeu a été créé avant tout pour que je m’amuse à développer. Il peut contenir des bugs ou des fonctionnalités incomplètes.  
+> **À noter : il n’y a pas de réel but dans le jeu pour le moment.**
 
 MiniVille est un jeu de gestion de ville minimaliste et accessible, développé en JavaScript, HTML et CSS. Construisez, développez et gérez votre propre cité en optimisant vos ressources !
 
-## 🚀 Aperçu
-
-MiniVille vous propose de prendre la tête d’une petite ville et de la faire prospérer à travers une gestion intelligente des ressources et des bâtiments. Sa prise en main rapide et son interface intuitive en font un jeu idéal pour s’initier à la gestion urbaine !
+---
 
 ## ✨ Fonctionnalités principales
 
@@ -20,6 +20,8 @@ MiniVille vous propose de prendre la tête d’une petite ville et de la faire p
 - **Sauvegarde automatique** : Reprenez votre partie à tout moment grâce à l’enregistrement dans le navigateur.
 - **Interface soignée** : Profitez d’une interface moderne et agréable pour une expérience optimale.
 
+---
+
 ## 🎮 Comment jouer
 
 1. [Cliquez ici pour jouer en ligne !](https://bast1enfr.github.io/MiniVille-Game/)
@@ -27,20 +29,34 @@ MiniVille vous propose de prendre la tête d’une petite ville et de la faire p
 3. Placez-les sur la grille afin de développer votre ville.
 4. Gérez vos ressources et planifiez votre expansion pour atteindre la prospérité !
 
+---
+
+## 🚀 Aperçu
+
+MiniVille vous propose de prendre la tête d’une petite ville et de la faire prospérer à travers une gestion intelligente des ressources et des bâtiments. Sa prise en main rapide et son interface intuitive le rendent accessible à tous.
+
+---
+
+## 📷 Captures d’écran
+
+*Ajoutez ici des images ou GIFs du jeu pour illustrer l’interface et le gameplay.*
+
+---
+
 ## 🛠️ Technologies utilisées
 
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6 Modules)**
 
-## 📷 Captures d’écran
-
-*Ajoutez ici des images ou GIFs du jeu pour illustrer l’interface et le gameplay.*
+---
 
 ## 🙏 Remerciements & Crédits
 
 - Jeu développé par [Bast1enFR](https://github.com/Bast1enFR)
 - Assets générés avec Gemini AI
+
+---
 
 ## 📄 Licence
 
